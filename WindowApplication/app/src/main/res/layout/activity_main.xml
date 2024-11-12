@@ -19,6 +19,8 @@
 
     </FrameLayout>
 
+
+
     <FrameLayout
             android:id="@+id/homeFrame"
             android:layout_width="match_parent"
@@ -27,6 +29,16 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
             app:layout_constraintTop_toBottomOf="@+id/topFrameView">
+
+            <Button
+                    android:id="@+id/centerButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Click Me"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
 
     </FrameLayout>
 
