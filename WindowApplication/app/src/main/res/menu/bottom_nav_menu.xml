@@ -2,18 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-            android:id="@+id/navHome"
-            android:title="Home"
+            android:id="@+id/navigation_Home"
+            android:title=""
             android:icon="@drawable/ic_home"
             />
     <item
-            android:id="@+id/navCalculator"
-            android:title="Calculator"
+            android:id="@+id/navigation_Calculator"
+            android:title=""
             android:icon="@drawable/ic_calculator"
             />
     <item
-            android:id="@+id/navProfile"
-            android:title="Profile"
+            android:id="@+id/navigation_Profile"
+            android:title=""
             android:icon="@drawable/ic_profile"
             />
 </menu>

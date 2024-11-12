@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void sendHttpRequest() {
         Request request = new Request.Builder()
-                .url("http://10.0.2.2:8080/test")
+                .url("http://192.168.13.134:8080/test")
                 .build();
 
         client.newCall(request).enqueue(new Callback() {
