@@ -32,7 +32,8 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="80dp"
+            android:paddingBottom="10dp"
             android:background="@drawable/bottom_nav"
 
             app:layout_constraintStart_toStartOf="parent"
@@ -43,6 +44,7 @@
             app:menu="@menu/bottom_nav_menu"
             app:itemIconSize="30dp"
             app:itemIconTint="@color/white"
+            app:itemBackground="@drawable/selected_item_background"
             app:itemRippleColor="@android:color/transparent"
             app:labelVisibilityMode="unlabeled"
             >

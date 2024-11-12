@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="15dp" android:right="15dp" android:top="10dp" android:bottom="10dp">
+        <shape>
+            <solid android:color="@color/chosenBlue" android:state_checked="true" />
+            <solid android:color="@android:color/transparent" android:state_checked="false" />
+
+            <corners android:radius="25dp" />
+        </shape>
+    </item>
+</layer-list>
